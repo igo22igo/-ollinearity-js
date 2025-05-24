@@ -1,0 +1,16 @@
+function flickSwitch(arr){
+
+let newarr = [];
+let isTrue = true;
+
+  for (let i=0; i<arr.length; i++) {
+    if (arr[i] === "flick") {
+      isTrue = !isTrue
+  
+    }
+    newarr[i] = isTrue
+  }
+
+
+  return (newarr);
+}
